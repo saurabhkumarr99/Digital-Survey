@@ -1,0 +1,119 @@
+@charset "ISO-8859-1";
+@charset "ISO-8859-1";
+body{
+    background-color: rgb(185, 200, 212);
+}
+
+header{
+    background-color: rgb(255, 228, 196);
+    display: block;
+    width: 80%;
+    height: 500px;
+    margin: 5px auto;
+    padding: 5px;  
+}
+
+.pre_header{
+    display: flex;
+    margin: 10px;
+    padding: 4px;
+}
+
+.navbar{
+    display: block;
+    margin: auto;
+    padding: 3px 22px;
+    display: flex;
+    font-size: 10px;
+}
+
+.navbar ul,.social ul{
+    display: flex;
+}
+.navbar ul li,.social ul li{
+    list-style: none;
+}
+
+.navbar ul li a,.social ul li a{
+    text-decoration: none;
+}
+
+
+.info{
+    text-align: center;
+    
+}
+
+.info #o_c{
+   color: brown;
+   font-size: 40px;
+}
+
+.info #t_c{
+    color: blueviolet;
+    font-size: 30px;
+}
+
+.description{
+    font-size: 25px;
+    text-align: center;
+}
+
+.end_user{
+   
+    display: block;
+    width: 40%;
+    margin: 20px auto;
+    padding :5px;
+}
+
+.end_user input{
+    width: 400px;
+    height: 30px;
+
+}
+
+.end_user ul{
+    display: flex;
+    margin: 5px auto;
+}
+
+.end_user ul li{
+  list-style: none; 
+}
+
+.btn{
+    display: block;
+    background-color: aqua;
+    margin: 5px ;
+    padding: 3px ;
+    border-radius: 6px;
+    cursor:pointer ;
+    font-size: 20px;
+}
+
+.btn:hover{
+    background-color: dimgray;
+} 
+
+section{
+    background-color: rgb(255, 228, 196);
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+    padding: 5px;
+}
+
+table{
+    margin: 5px auto;
+    background-color: rgb(104, 99, 99);
+    color: aliceblue;
+    width: 99%;
+}
+tr{
+	margin: 1px auto;
+}
+
+.btns{
+	 margin: 5px auto;
+}
